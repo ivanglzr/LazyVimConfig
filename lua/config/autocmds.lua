@@ -5,6 +5,7 @@
 local autocmd = vim.api.nvim_create_autocmd
 
 autocmd("FocusLost", {
+  pattern = "*",
   callback = function()
     vim.cmd(":wa")
   end,
