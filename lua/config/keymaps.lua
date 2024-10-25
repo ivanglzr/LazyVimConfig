@@ -12,3 +12,9 @@ keymap("n", "<C-q>", ":q<CR>", opts(true))
 keymap("n", "<C-s>", ":w<CR>", opts(true))
 
 keymap("n", "<C-t>", ":colorscheme<Space>", opts(false))
+
+keymap("n", "<A-S-f>", ":LazyFormat<CR>", opts(true))
+
+keymap("n", "<A-v>", ":vsplit<CR>", opts(true))
+
+keymap("i", "<C-z>", "<C-o>:u<CR>", opts(true))

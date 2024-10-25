@@ -4,7 +4,7 @@ return {
     priority = 1000,
     opts = {
       options = {
-        transparency = true,
+        transparency = false,
       },
       highlights = {
         ErrorMsg = { italic = true, bold = true },
